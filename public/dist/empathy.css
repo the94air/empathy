@@ -1,0 +1,101 @@
+.navbar-menu.show {
+  display: block;
+}
+
+.navbar-menu ul li a.select {
+  border-width: 1px;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  border-color: #4a5568;
+}
+
+@media (min-width: 768px) {
+  .navbar-menu ul li a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background: #4a5568;
+    transition: height ease 150ms;
+  }
+
+  .navbar-menu ul li a.select {
+    border-style: none;
+  }
+
+  .navbar-menu ul li a.select::after {
+    height: 0.25rem;
+  }
+}
+
+.navbar-menu .navbar-dropdown {
+  min-width: 10rem;
+}
+
+.navbar-menu .navbar-dropdown li a {
+  transition: none;
+}
+
+.slideout-menu {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 9rem;
+  bottom: 0;
+  z-index: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+@media (min-width: 768px) {
+  .slideout-menu {
+    display: block;
+    height: auto;
+    position: relative;
+    top: 0;
+    overflow-y: hidden;
+  }
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-menu-right {
+  right: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+.sidebar-menu li a.select {
+  background-color: #e2e8f0;
+  font-weight: 600;
+  border-color: #4a5568;
+}
+
+.sidebar-menu li a.select span {
+  color: #4a5568;
+}
+
+.sidebar-menu li a .sidebar-angle .svg-inline--fa {
+  transition: transform ease 150ms;
+}

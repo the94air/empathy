@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+// @import '~empathy/src/sass/empathy';
+@import '../../sass/empathy';
+@import 'base';
+
+@tailwind utilities;
