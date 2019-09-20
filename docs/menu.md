@@ -7,10 +7,9 @@
 6. Making the footer
 7. Making the panel sections
 8. Breadcrumb component.
-9. Form component.
-10. Pagination component.
-11. Alert components.
-12. Button component.
-13. Notifications component.
-14. Table component.
-15. DataTable component.
+9. Form components.
+10. Alert components.
+11. Button components.
+12. Notifications component.
+13. Table component.
+14. DataTable component.

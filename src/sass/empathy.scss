@@ -85,3 +85,84 @@
         }
     }
 }
+
+.breadcrumb {
+    li {
+        @apply flex items-center;
+    }
+    li + li {
+        @apply ml-2;
+        .svg-inline--fa {
+            @apply text-gray-700 mr-2;
+        }
+        &::before {
+            @apply hidden;
+            font-family: 'Font Awesome 5 Solid';
+            content: "\f105";
+        }
+    }
+    a.select {
+        @apply font-semibold;
+    }
+}
+
+input:disabled {
+  @apply bg-gray-100 text-gray-600;
+}
+
+input[type=file] {
+    &:focus {
+        + label {
+            @apply outline-none shadow-outline;
+        }
+    }
+    &:disabled {
+        + label {
+            @apply pointer-events-none opacity-75;
+        }
+    }
+}
+
+select:not([multiple]) {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 320 512' width='320pt' height='512pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_wUo7QINyRzHj5N0ABH7HfPDmHgquotTl'%3E%3Crect width='320' height='512'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_wUo7QINyRzHj5N0ABH7HfPDmHgquotTl)'%3E%3Cpath d=' M 31.3 192 L 288.6 192 C 306.4 192 315.3 213.5 302.7 226.1 L 174.1 354.8 C 166.3 362.6 153.6 362.6 145.8 354.8 L 17.2 226.1 C 4.6 213.5 13.5 192 31.3 192 Z ' fill='rgb(74,85,104)'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: .75rem;
+    &:disabled {
+        @apply bg-gray-100 text-gray-600;
+    }
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+    &:disabled {
+        @apply bg-gray-100 text-gray-600;
+    }
+}
+
+select[multiple] {
+    min-height: 9.4rem;
+        &:disabled {
+        @apply bg-gray-100 text-gray-600;
+    }
+}
+
+button:disabled, [type="button"]:disabled, [type="reset"]:disabled, [type="submit"]:disabled {
+    @apply opacity-75 pointer-events-none;
+}
+
+.notifications {
+    bottom: 1rem !important;
+    right: 1.5rem !important;
+    width: auto !important;
+    max-width: 270px !important;
+    @screen sm {
+        max-width: 320px !important;
+    }
+    @screen md {
+        max-width: 540px !important;
+    }
+}
+
+@import './datatable';

@@ -1,3 +1,23 @@
+# Notifications component
+1. First we need to use `vue-notification` package in our `app.js`:
+```javascript
+import Vue from 'vue';
+import App from './App';
+import WebFont from 'webfontloader';
+import Notifications from 'vue-notification';
+
+// ...
+
+Vue.use(Notifications);
+
+const app = new Vue({
+    el: '#app',
+    render: h => h(App)
+});
+```
+
+2. In our `Main.vue` component we add our new the notification template:
+```
 <template>
     <div class="container mx-auto px-4">
         <Slideout menu="#sidebar" panel="#content">
@@ -20,13 +40,21 @@
         </notifications>
     </div>
 </template>
+```
 
+3. To show a notification you can do. visit the [docs](https://www.npmjs.com/package/vue-notification) to learn more:
+```javascript
 <script>
-    import Slideout from 'vue-slideout';
-    import Sidebar from './Sidebar';
-    import Content from './Content';
-
-    export default {
-        components: { Sidebar, Content, Slideout }
-    }
+	export default {
+		methods: {
+			showNotification() {
+				this.$notify({
+					group: 'notifications',
+					text: 'Your new post has been created.',
+					duration: 5000,
+				});
+			}
+		}
+	}
 </script>
+```

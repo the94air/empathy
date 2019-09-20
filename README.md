@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="src/images/empathy.svg?sanitize=true" alt="Empathy" title="Empathy" width="150"/>
+    <img src="src/images/empathy.svg?sanitize=true" alt="Empathy" title="Empathy" width="350"/>
 </p>
-A lightweight admin panel components with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5.  
+A lightweight admin panel components with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5.
 
 ## Docs & Demo
-The documentation: [https://empathy.js.org](https://empathy.js.org).
+The documentation: [https://empathy.js.org](https://empathy.js.org).  
 The demo: [https://empathy.js.org/demo](https://empathy.js.org/demo).
 
 ## Intro
@@ -29,4 +29,5 @@ $ yarn add empathy
 ```
 
 ## License
-This project is [MIT](https://github.com/the94air/empathy/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/the94air/empathy/blob/master/LICENSE) licensed.  
+Project by [Abdalla Arbab](https://abdalla.js.org).

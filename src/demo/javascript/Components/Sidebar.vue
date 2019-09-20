@@ -19,7 +19,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="sidebar-dropdown flex border-l-2 border-gray-300 bg-gray-200 text-gray-700 hover:text-gray-700 focus:text-gray-700 hover:border-gray-500 focus:border-gray-500 hover:bg-gray-200 focus:bg-gray-200 rounded-r-lg no-underline py-2 px-3" @click.prevent="dropdown = !dropdown">
+                <a href="#" class="sidebar-dropdown flex border-l-2 border-gray-300 bg-gray-200 text-gray-700 hover:text-gray-700 focus:text-gray-700 hover:border-gray-500 focus:border-gray-500 hover:bg-gray-200 focus:bg-gray-200 rounded-r-lg no-underline py-2 px-3" :class="[ dropdown ? 'border-gray-500' : '' ]" @click.prevent="dropdown = !dropdown">
                 	<span class="mr-3 text-gray-500">
                         <Fa :icon="['fas', 'cubes']" fixed-width />
                     </span>
