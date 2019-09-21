@@ -20,9 +20,6 @@
 							<a href="#" class="block md:inline w-full md:w-auto px-3 py-3 md:px-0 md:py-5 no-underline text-gray-700 hover:text-gray-600 select">Home</a>
 						</li>
 						<li class="relative py-0 md:py-5 mr-0 md:mr-5">
-							<a href="#" class="block md:inline w-full md:w-auto px-3 py-3 md:px-0 md:py-5 no-underline text-gray-700 hover:text-gray-600">Sign In</a>
-						</li>
-						<li class="relative py-0 md:py-5 mr-0 md:mr-5">
 							<a href="#" class="block md:inline w-full md:w-auto px-3 py-3 md:px-0 md:py-5 no-underline text-gray-700 hover:text-gray-600">Messages</a>
 						</li>
 						<li class="relative py-0 md:py-5 mr-0 md:mr-5">

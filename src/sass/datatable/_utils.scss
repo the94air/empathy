@@ -27,6 +27,7 @@
 }
 
 .vgt-responsive {
+  @apply bg-gray-300 rounded-lg mb-8;
   width: 100%;
   overflow-x: auto;
   position: relative;

@@ -3,10 +3,10 @@
         <table class="text-left w-full">
             <thead class="border-b-2 border-gray-500">
                 <tr>
-                    <th class="font-semibold uppercase py-2 px-4">ID</th>
-                    <th class="font-semibold uppercase py-2 px-4">First name</th>
-                    <th class="font-semibold uppercase py-2 px-4">Last name</th>
-                    <th class="font-semibold uppercase py-2 px-4">Email</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">ID</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">First name</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">Last name</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">Email</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,10 +31,10 @@
             </tbody>
             <tfoot class="border-t-2 border-gray-500">
                 <tr>
-                    <th class="font-semibold uppercase py-2 px-4">ID</th>
-                    <th class="font-semibold uppercase py-2 px-4">First name</th>
-                    <th class="font-semibold uppercase py-2 px-4">Last name</th>
-                    <th class="font-semibold uppercase py-2 px-4">Email</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">ID</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">First name</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">Last name</th>
+                    <th class="font-semibold text-sm uppercase py-2 px-4">Email</th>
                 </tr>
             </tfoot>
         </table>

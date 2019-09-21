@@ -10,9 +10,9 @@
         </Slideout>
         <notifications group="notifications" position="bottom right">
             <template slot="body" slot-scope="props">
-                <div class="flex justify-between items-center bg-black text-white rounded shadow-lg px-2 pl-3 pt-2 pb-2 mb-3">
+                <div class="flex justify-between items-center bg-black text-white rounded shadow-lg px-6 pt-2 pb-2 mb-3">
                     <p class="leading-tight" v-html="props.item.text"></p>
-                    <button class="inline-block bg-gray-800 hover:bg-gray-900 focus:bg-gray-900 text-white font-semibold focus:outline-none focus:shadow-outline leading-tight rounded-sm select-none align-middle whitespace-no-wrap px-2 py-2 cursor-pointer ml-2" @click="props.close">
+                    <button class="inline-block bg-transparent underline font-semibold text-yellow-500 hover:text-yellow-600 focus:text-yellow-600 focus:outline-none leading-tight select-none align-middle whitespace-no-wrap py-2 cursor-pointer ml-4" @click="props.close">
                         Close
                     </button>
                 </div>

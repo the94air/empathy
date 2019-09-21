@@ -1,25 +1,15 @@
-
 .vgt-input, .vgt-select{
+  @apply leading-tight py-2 px-3 rounded bg-white border border-gray-400;
   width: 100%;
-  height: 32px;
-  line-height: 1;
   display: block;
-  font-size: 14px;
-  font-weight: normal;
-  padding: 6px 12px;
-  color: $text-color;
-  border-radius: 4px;
   box-sizing: border-box;
-  background-image: none;
-  background-color: #fff;
-  border: 1px solid $input-border-color;
-  transition: border-color .2s cubic-bezier(.645,.045,.355,1);
-  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: $text-color;
-    opacity: 0.3; /* Firefox */
+  &:hover {
+    @apply border-gray-300;
   }
-  &:focus{
-    outline: none;
-    border-color: $link-color;
+  &:focus {
+    @apply outline-none border-gray-500;
+  }
+  &::placeholder {
+    opacity: 0.3;
   }
 }

@@ -5,14 +5,12 @@ import Notifications from 'vue-notification';
 import VueGoodTablePlugin from 'vue-good-table';
 
 import { dom, config, library } from '@fortawesome/fontawesome-svg-core';
-import { faArrowAltCircleRight, faArrowAltCircleLeft } from '@fortawesome/free-regular-svg-icons';
-import { faHome, faUser, faUsers, faCubes, faAngleRight, faArrowRight,
-         faArrowLeft, faCheckCircle, faExclamationTriangle,
-         faInfoCircle, faExclamationCircle, faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faUsers, faCubes, faAngleRight, faCheckCircle, faExclamationTriangle,
+         faInfoCircle, faExclamationCircle, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 WebFont.load({
-    google:  {
+    google: {
         families:  ['Source Sans Pro:400,600']
     }
 });
@@ -22,8 +20,8 @@ config.searchPseudoElements = true;
 dom.watch();
 
 library.add(faHome, faUser, faUsers, faCubes, faAngleRight,
-            faArrowRight, faArrowLeft, faCheckCircle, faExclamationTriangle,
-            faInfoCircle, faExclamationCircle, faArrowDown, faArrowUp, faArrowAltCircleRight, faArrowAltCircleLeft);
+            faCheckCircle, faExclamationTriangle,
+            faInfoCircle, faExclamationCircle, faChevronLeft);
 
 Vue.component('Fa', FontAwesomeIcon);
 

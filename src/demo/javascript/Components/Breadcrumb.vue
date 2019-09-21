@@ -10,7 +10,7 @@
             <a href="#" class="text-gray-700 hover:text-gray-600 focus:text-gray-600 text-sm no-underline">Third page</a>
         </li>
         <li>
-            <a href="#" class="text-gray-700 hover:text-gray-600 focus:text-gray-600 text-sm no-underline select">Fourth Page</a>
+            <a href="#" class="text-gray-700 hover:text-gray-600 focus:text-gray-600 text-sm no-underline select">Dashboard</a>
         </li>
     </ul>
 </template>

@@ -1,5 +1,4 @@
 table.vgt-table{
-  @apply bg-gray-300;
   border-collapse: collapse;
   width: 100%;
   max-width: 100%;
@@ -8,10 +7,17 @@ table.vgt-table{
     @apply bg-gray-200 text-gray-700 py-2 px-4;
     vertical-align: top;
   }
-  & tr.clickable {
-    cursor: pointer;
-    &:hover{
-      @apply bg-red-300;
+  & tr {
+    &:not(:last-child) {
+      @apply border-b border-gray-400;
+    }
+    &.clickable {
+      cursor: pointer;
+      &:hover{
+        td {
+          @apply bg-gray-300;
+        }
+      }
     }
   }
 }

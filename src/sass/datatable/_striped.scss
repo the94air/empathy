@@ -1,5 +1,8 @@
 .vgt-table{
-  &.striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(51, 68, 109, 0.03);
-  }
+	&.striped tbody tr:nth-of-type(odd) td {
+		@apply bg-gray-300;
+	}
+	&.striped tbody tr.clickable:hover td {
+		@apply bg-gray-400;
+	}
 }
