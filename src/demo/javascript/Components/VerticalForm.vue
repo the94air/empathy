@@ -12,7 +12,7 @@
             </div>
             <div class="w-full md:w-1/2 px-2 mb-4">
                 <input class="block w-full appearance-none bg-white text-lg leading-tight rounded focus:outline-none border border-solid border-gray-400 hover:border-gray-300 focus:border-gray-500 py-2 px-3 border-red-400 hover:border-red-300 focus:border-red-600" type="email" id="email2">
-                <span class="block text-red-600 text-sm">This field is required.</span>
+                <span class="block text-red-600 text-sm mt-1">This field is required.</span>
             </div>
             <div class="w-full md:w-1/2 px-2 mb-2">
                 <label class="font-semibold mb-2">Gender</label>

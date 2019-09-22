@@ -7,7 +7,8 @@
 ## Why Empathy?
 Empathy is a component-based package. It can works smoothly with every backend language. It is primarily built using Tailwindcss CSS utilities. It is different because it doesn't require you to clone the repository before you start your project like other admin panels. All you need is your `package.json` and your assets bundler. Install the package from NPM, set up the main components, set up your desired other components (in a fully customized fashion way) and you're finished. With purgeCSS, you can get a light and small-sized result.
 
-[Screenshot here]
+
+![Empathy demo screenshot](src/images/empathy-screenshopt.png)
 
 ## Components
 1. Navbar component.
@@ -17,7 +18,7 @@ Empathy is a component-based package. It can works smoothly with every backend l
 5. Form components.
 6. Alert components.
 7. Button components.
-8. Notifications component.
+8. Notification component.
 9. Table component.
 10. DataTable component.
 11. [**Add a new component**](#contirbute).
@@ -25,11 +26,11 @@ Empathy is a component-based package. It can works smoothly with every backend l
 ## installation
 1. Install with NPM:
 ```bash
-$ npm install empathy --save
+$ npm install @codolog/empathy --save
 ```
 Or if you like Yarn:
 ```bash
-$ yarn add empathy
+$ yarn add @codolog/empathy
 ```
 
 ## Docs & Demo

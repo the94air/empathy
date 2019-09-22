@@ -12,11 +12,12 @@ let tailwindcss = require('tailwindcss');
  |
  */
 
-mix.setPublicPath('public')
+mix.setPublicPath('docs')
     .setResourceRoot('http://mixer.test/')
-    .sass('src/demo/sass/app.scss', 'public/demo/css')
-    .js('src/demo/javascript/app.js', 'public/demo/javascript')
-    .copyDirectory('src/images', 'public/images')
+    .sass('src/demo/sass/app.scss', 'docs/demo/css')
+    .js('src/demo/javascript/app.js', 'docs/demo/javascript')
+    .copyDirectory('src/favicons', 'docs')
+    .copyDirectory('src/images', 'docs/images')
 	.options({
 		processCssUrls: false,
 		postCss: [ tailwindcss('./tailwind.config.js') ],
