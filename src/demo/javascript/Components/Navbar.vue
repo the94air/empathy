@@ -5,7 +5,7 @@
 				<div>
 					<a href="#" class="block no-underline py-3">
 						<div class="flex items-center">
-							<img src="images/empathy-gray.svg" class="mr-2 w-24" alt="Empathy">
+							<img src="/demo/images/empathy-gray.svg" class="mr-2 w-24" alt="Empathy">
 						</div>
 					</a>
 				</div>
@@ -52,7 +52,7 @@
 		                                </p>
 		                            </div>
 		                            <div>
-		                            	<img class="h-8 w-8 rounded-full" src="images/avatar.jpeg" alt="@john__doe" title="@john__doe">
+		                            	<img class="h-8 w-8 rounded-full" src="/demo/images/avatar.jpeg" alt="@john__doe" title="@john__doe">
 		                            </div>
 	                            </div>
 	                        </a>

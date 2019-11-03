@@ -1,6 +1,6 @@
 {
   "name": "empathy",
-  "version": "0.0.2-alpha.5",
+  "version": "1.0.0",
   "description": "A lightweight admin panel components with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5.",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,14 @@
     "watch-poll": "npm run watch -- --watch-poll",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build": "npm run production && rm -rf ~/Sites/empathy-docs/docs/demo && cp -rf ~/Sites/empathy/demo ~/Sites/empathy-docs/docs"
   },
   "keywords": [
     "empathy",
     "tailwindcss",
     "purgecss",
-    "vuejs2",
+    "vuejs",
     "fontawesome5",
     "admin-panel",
     "lightweight",

@@ -24,7 +24,7 @@ Empathy is a component-based package. It can works smoothly with every backend l
 11. [**Add a new component**](#contirbute).
 
 ## installation
-1. Install with NPM:
+Install with NPM:
 ```bash
 $ npm install @codolog/empathy --save
 ```
