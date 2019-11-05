@@ -6,7 +6,7 @@ import VueGoodTablePlugin from 'vue-good-table';
 
 import { dom, config, library } from '@fortawesome/fontawesome-svg-core';
 import { faHome, faUser, faUsers, faCubes, faAngleRight, faCheckCircle, faExclamationTriangle,
-         faInfoCircle, faExclamationCircle, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+         faInfoCircle, faExclamationCircle, faChevronLeft, faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 WebFont.load({
@@ -16,12 +16,11 @@ WebFont.load({
 });
 
 config.searchPseudoElements = true;
-
 dom.watch();
 
 library.add(faHome, faUser, faUsers, faCubes, faAngleRight,
             faCheckCircle, faExclamationTriangle,
-            faInfoCircle, faExclamationCircle, faChevronLeft);
+            faInfoCircle, faExclamationCircle, faChevronLeft, faArrowDown, faArrowUp);
 
 Vue.component('Fa', FontAwesomeIcon);
 
