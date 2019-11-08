@@ -8,7 +8,7 @@
                 </div>
             </div>
         </Slideout>
-        <notifications group="notifications" position="bottom right">
+        <notifications group="notifications" position="bottom right" width="320px">
             <template slot="body" slot-scope="props">
                 <div class="flex justify-between items-center bg-black text-white rounded shadow-lg px-6 pt-2 pb-2 mb-3">
                     <p class="leading-tight" v-html="props.item.text"></p>
