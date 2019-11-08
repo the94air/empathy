@@ -1,6 +1,6 @@
 {
   "name": "@codolog/empathy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight admin panel components with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5.",
   "main": "index.js",
   "bin": {
