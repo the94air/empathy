@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "A lightweight admin panel components with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5.",
   "main": "index.js",
+  "bin": {
+    "empathy": "lib/cli.js"
+  },
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -34,11 +37,13 @@
   "license": "MIT",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
+    "commander": "^4.0.0",
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.14",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.16.0",
     "sass-loader": "^7.1.0",
+    "shelljs": "^0.8.3",
     "tailwindcss": "^1.1.2",
     "vue-template-compiler": "^2.5.22"
   },
