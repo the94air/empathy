@@ -89,12 +89,12 @@
 .breadcrumb {
     li {
         @apply flex items-center;
-    }
-    li + li {
-        @apply ml-2;
         .svg-inline--fa {
             @apply text-gray-700 mr-2;
         }
+    }
+    li + li {
+        @apply ml-2;
         &::before {
             @apply hidden;
             font-family: 'Font Awesome 5 Solid';
