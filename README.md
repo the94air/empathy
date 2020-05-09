@@ -25,7 +25,7 @@ Empathy is a lightweight admin dashboard build with Tailwindcss, PurgeCSS, Vuejs
 Supports all modern browsers except IEs.
 
 ## Screenshot
-Demo: https://empathy.js.org/demo.
+Demo: https://empathy.js.org/demo
 
 ![Empathy demo screenshot](src/images/empathy-screenshot.png)
 
