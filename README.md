@@ -1,19 +1,60 @@
 <p align="center">
     <img src="src/images/empathy.svg?sanitize=true" alt="Empathy" title="Empathy" width="350"/>
 </p>
-<p align="center">Lightweight admin panel components build with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5</p>
-<br>
 
-## Why Empathy?
-Empathy is a component-based package. It can works smoothly with every backend language. It is primarily built using Tailwindcss CSS utilities. It is different because it doesn't require you to clone the repository before you start your project like other admin panels. All you need is your `package.json` and your assets bundler. Install the package from NPM, set up the main components, set up your desired other components (in a fully customized fashion way) and you're finished. With purgeCSS, you can get a light and small-sized result.
+<p align="center">
+  <a href="https://circleci.com/gh/the94air/empathy/tree/master"><img src="https://img.shields.io/circleci/project/github/the94air/empathy/master.svg?sanitize=true" alt="Build Status"></a>
+  <a href="https://codecov.io/github/the94air/empathy?branch=master"><img src="https://img.shields.io/codecov/c/github/the94air/empathy/master.svg?sanitize=true" alt="Coverage Status"></a>
+  <a href="https://npmcharts.com/compare/@codolog/empathy?minimal=true"><img src="https://img.shields.io/npm/dm/@codolog/empathy.svg?sanitize=true" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/@codolog/empathy"><img src="https://img.shields.io/npm/v/@codolog/empathy.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/@codolog/empathy"><img src="https://img.shields.io/npm/l/@codolog/empathy.svg?sanitize=true" alt="License"></a>
+  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
+</p>
 
+## Introduction
+Empathy is a lightweight admin dashboard build with Tailwindcss, PurgeCSS, Vuejs, Fontawesome 5. The project aims to make building a dashboard easy and simple and encourage doing best practices to enhance the UI and the page load.
 
-![Empathy demo screenshot](https://raw.githubusercontent.com/the94air/empathy/new/src/images/empathy-screenshopt.png)
+## Features
+1. Smooth setup and use.
+2. Easily extendable components based theme.
+3. Works with every backend language.
+4. Fully customizable with Tailwindcss utilities.
+5. It allows you to build from scratch without having to clone a repository.
+
+## Browser Compatibility
+Supports all moderen browsers except IEs.
+
+## Screenshot
+Demo: https://empathy.js.org/demo.
+
+![Empathy demo screenshot](src/images/empathy-screenshot.png)
+
+## install
+1. Install Empathy from NPM
+With NPM:
+```bash
+$ npm install @codolog/empathy
+```
+With Yarn:
+```bash
+$ yarn add @codolog/empathy
+```
+With Bower:
+```bash
+$ bower install @codolog/empathy
+```
+2. Then install all the required dependencies. This command will do it for you:
+```bash
+$ npx empathy install
+```
+
+## Documentation
+https://empathy.js.org
 
 ## Components
-1. Navbar component.
-2. Footer component.
-3. Panel component.
+1. Layout navbar component.
+2. Layout footer component.
+3. Layout panel component.
 4. Breadcrumb component.
 5. Form components.
 6. Alert components.
@@ -21,24 +62,10 @@ Empathy is a component-based package. It can works smoothly with every backend l
 8. Notification component.
 9. Table component.
 10. DataTable component.
-11. [**Add a new component**](#contirbute).
-
-## installation
-Install with NPM:
-```bash
-$ npm install @codolog/empathy --save
-```
-Or if you like Yarn:
-```bash
-$ yarn add @codolog/empathy
-```
-
-## Docs & Demo
-The documentation: [https://empathy.js.org](https://empathy.js.org).  
-The demo: [https://empathy.js.org/demo](https://empathy.js.org/demo).
+11. [**Add a new component**](#contributing).
 
 ## Dependancies
-Empathy depends on the next tools:
+Empathy depends on the these tools:
 1. Tailwindcss library.
 2. Vue JavaScript framework.
 3. PurgeCSS to reduce CSS file size.
@@ -49,10 +76,26 @@ Empathy depends on the next tools:
 8. `vue-good-table` Vue plugin.
 9. `webfontloader` for loading fonts.
 
-## Contirbute
-You can contribute and add your favorite component to the package by opening a new [issue](https://github.com/the94air/empathy/issues) with an example before making a [pull request](https://github.com/the94air/empathy/pulls). if you also found a bug, send me a pull request.  
-Contributes are also welcome by making the components with another javascript framework.
+## Contributing
+You can contribute and add your favorite components to the package by opening a new [issue](https://github.com/the94air/empathy/issues) with an example. If you found a bug, send a [pull request](https://github.com/the94air/empathy/pulls).
+
+## Project setup
+```bash
+$ git clone https://github.com/the94air/empathy.git
+$ npm install
+$ npm run build
+```
+## Credits
+Empathy wouldn't exist without these awesome projects and packages:
+1. Tailwindcss.
+2. Vue.
+3. PurgeCSS.
+4. Fontawesome.
+5. `vue-slideout` package.
+6. `vue-slide-up-down` package.
+7. `vue-notification` package.
+8. `vue-good-table` package.
+9. `webfontloader` package.
 
 ## License
-This project is [MIT](https://github.com/the94air/empathy/blob/master/LICENSE) licensed.  
-Project by [Abdalla Arbab](https://abdalla.js.org).
+[MIT](https://github.com/the94air/empathy/blob/master/LICENSE) Copyright © 2019 - present, [Abdalla Arbab](https://abdalla.js.org).

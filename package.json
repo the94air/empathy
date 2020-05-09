@@ -61,7 +61,7 @@
     "vue-slideout": "^1.8.0",
     "webfontloader": "^1.6.28"
   },
-  "peerDependencies": {
+  "packageDependencies": {
     "tailwindcss": "1.x",
     "@fortawesome/fontawesome-svg-core": "1.x",
     "@fortawesome/free-solid-svg-icons": "5.x",
