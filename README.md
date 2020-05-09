@@ -19,7 +19,7 @@ Empathy is a lightweight admin dashboard build with Tailwindcss, PurgeCSS, Vuejs
 2. Easily extendable components based theme.
 3. Works with every backend language.
 4. Fully customizable with Tailwindcss utilities.
-5. It allows you to build from scratch without having to clone a repository.
+5. It allows you to build from scratch without having to clone the repository.
 
 ## Browser Compatibility
 Supports all moderen browsers except IEs.
