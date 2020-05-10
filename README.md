@@ -8,7 +8,7 @@
   <a href="https://npmcharts.com/compare/@codolog/empathy?minimal=true"><img src="https://img.shields.io/npm/dm/@codolog/empathy.svg?sanitize=true" alt="Downloads"></a>
   <a href="https://www.npmjs.com/package/@codolog/empathy"><img src="https://img.shields.io/npm/v/@codolog/empathy.svg?sanitize=true" alt="Version"></a>
   <a href="https://www.npmjs.com/package/@codolog/empathy"><img src="https://img.shields.io/npm/l/@codolog/empathy.svg?sanitize=true" alt="License"></a>
-  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
+  <a href=""><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
 </p>
 
 ## Introduction
