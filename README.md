@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/images/empathy.svg?sanitize=true" alt="Empathy" title="Empathy" width="350"/>
+    <img src="src/images/empathy.svg?sanitize=true" alt="Empathy" title="Empathy" height="100" />
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ Empathy depends on the these tools:
 9. `webfontloader` for loading fonts.
 
 ## Contributing
-You can contribute and add your favorite components to the package by opening a new [issue](https://github.com/the94air/empathy/issues) with an example. If you found a bug, send a [pull request](https://github.com/the94air/empathy/pulls).
+You can contribute and add your favorite components to the package by opening a new [issue](https://github.com/the94air/empathy/issues) with an example. If you found a bug, open an issue or send a [pull request](https://github.com/the94air/empathy/pulls).
 
 ## Project setup
 ```bash
@@ -85,6 +85,7 @@ $ git clone https://github.com/the94air/empathy.git
 $ npm install
 $ npm run build
 ```
+
 ## Credits
 Empathy wouldn't exist without these awesome projects and packages:
 1. Tailwindcss.
