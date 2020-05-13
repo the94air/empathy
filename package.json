@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -c -w",
-    "build": "cross-env NODE_ENV=production rollup -c && rm -rf ~/Sites/empathy-docs/docs/demo && cp -rf ~/Sites/empath/demo ~/Sites/empathy-docs/static"
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "repository": {
     "type": "git",
