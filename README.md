@@ -29,7 +29,7 @@ Demo: https://empathy.js.org/demo
 
 ![Empathy demo screenshot](src/images/empathy-screenshot.png)
 
-## install
+## Install
 1. Install Empathy from NPM
 With NPM:
 ```bash
